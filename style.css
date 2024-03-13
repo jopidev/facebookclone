@@ -66,7 +66,7 @@ nav{
 .fa-solid, .fa-brands {
     color: white;
 }
-.fa-magnifying-glass{
+.fa-magnifying-glass, .fa-location-dot, .fa-ellipsis{
     color: gray;
 }
 .online{
@@ -154,6 +154,10 @@ nav{
     color: #1876f2;
     font-size: 12px;
 }
+.sidebar-title i{
+    font-size: 15px;
+    margin: 0 8px;   
+}
 .event{
     display: flex;
     font-size: 14px;
@@ -188,4 +192,18 @@ nav{
     font-size: 10px;
     font-weight: bold;
     padding: 4px 0;
+}
+.sidebar-ads{
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+.online-list{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.online-list .online img{
+    width: 40px;
+    border-radius: 50%;
 }
